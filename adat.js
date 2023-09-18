@@ -1,0 +1,1 @@
+export const list=["asd","qwe","yxc","qwe"]

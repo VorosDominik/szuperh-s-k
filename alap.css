@@ -1,0 +1,52 @@
+/* HTML elemre vonatkozó stílusok */
+html {
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  /* Body elemre vonatkozó stílusok */
+  body {
+    margin: auto;
+    padding: auto;
+    background-image: radial-gradient(rgb(82, 82, 92), black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  /* Main tartalomtartóra vonatkozó stílusok */
+  main {
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
+  
+  /* Navigációs menüre vonatkozó stílusok */
+  nav {
+
+    padding: 10px; /* Belső tér a navigációs menü körül */
+  }
+  
+  /* Navigációs linkekre vonatkozó stílusok */
+  nav a:link,a:visited {
+    color: #FFD700; /* Szövegszín arany */
+    text-decoration: none; /* Aláhúzás eltávolítása a linkekről */
+    margin-right: 20px; /* Jobb oldali térköz a linkek között */
+    font-weight: bold; /* Félkövér betűstílus */
+  }
+  
+  /* Navigációs linkek hover állapotára vonatkozó stílusok */
+  nav a:hover,a:active {
+
+    
+    text-decoration: underline; /* Aláhúzás hozzáadása hover állapotban */
+
+
+  }
+  foter{
+    text-align: center;
+    color: red;
+  }
+  
